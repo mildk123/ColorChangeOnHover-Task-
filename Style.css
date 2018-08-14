@@ -1,0 +1,38 @@
+body {
+    text-align: center;  
+  }
+  
+/* Box After  CLICK */
+  .styledbox{ 
+    display: inline-block;
+    min-width:  350px !important;
+    min-height: 300px !important;
+    border: 2px groove black;
+    border-radius: 30px !important;
+    margin-top: 50px !important;
+    transition: all 500ms ease;
+  }
+  
+  /* Box Before Click */
+  .Box{
+    display: inline-block;
+    min-width:  350px !important;
+    min-height: 300px !important;
+    border: 2px ridge black; 
+    border-radius: 30px !important;
+    margin-top:50px !important;
+    transition: all 500ms ease;
+    background-color: #F5D796;
+  }
+  
+  /* Text Inside Box */
+  #text{
+    display:none;
+    transition: all 800ms ease;
+    color: #FFFFFF;
+    font-family:Verdana;
+    text-shadow: 1px 1px 5px black;
+    -webkit-text-stroke: 1px  #5F5F5F;
+    margin-top: 50px;
+    padding: 40px;
+  }
